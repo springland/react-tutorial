@@ -42,8 +42,9 @@ const Author = () => {
 
 const Title = () => 
 {
+    const title = 'Title: The Match'
     return (
-            <h2>Title: The Match</h2>
+            <h2>{title}</h2>
     )
 };
 
