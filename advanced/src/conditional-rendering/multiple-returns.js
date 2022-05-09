@@ -14,6 +14,7 @@ const MultipleReturns = () => {
             (resp) => 
             
             {
+                setIsLoading(false)
                 if(resp.status < 200 || resp.status >= 400)
                 {
                     setIsError(true);
@@ -23,11 +24,13 @@ const MultipleReturns = () => {
                 {
                     return resp.json();
                 } 
+
+                
             }    
         ).then(
             (user) => {
                 setUser(user);
-                setIsLoading(false)
+            
             }   
         ). catch(
             error => {
@@ -39,7 +42,7 @@ const MultipleReturns = () => {
 
     
 
-    console.log(user);
+    
 
     if(isLoading) {
         return <h1> Loading ....</h1>
