@@ -8,7 +8,8 @@ import './App.css';
 //import Content from './useeffect/use-effect-basic';
 //import Content from './useeffect/use-effect-cleanup';
 //import Content from './useeffect/use-effect-fetchdata'
-import Content from './conditional-rendering/multiple-returns'
+//import Content from './conditional-rendering/multiple-returns'
+import Content from  './conditional-rendering/short-circuit'
 
 
 function App() {
