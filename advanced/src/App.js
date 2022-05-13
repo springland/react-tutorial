@@ -14,7 +14,11 @@ import './App.css';
 //import Content from './form/controlled-inputs'
 //import Content from './form/multiple-inputs'
 //import Content from './useref/use-ref-basics'
-import Content from './usereducer/usereducer'
+//import Content from './usereducer/usereducer'
+//import Content from './prop-drilling/prop-drilling'
+//import Content from './useContext/UseContext'
+//import Content from './custom-hooks/fetch-example';
+import Content from './prop-types/PropTypes';
 
 function App() {
 
