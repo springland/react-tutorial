@@ -18,7 +18,8 @@ import './App.css';
 //import Content from './prop-drilling/prop-drilling'
 //import Content from './useContext/UseContext'
 //import Content from './custom-hooks/fetch-example';
-import Content from './prop-types/PropTypes';
+//import Content from './prop-types/PropTypes';
+import Content from './react-router/ReactRouter';
 
 function App() {
 
