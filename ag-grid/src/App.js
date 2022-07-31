@@ -1,14 +1,17 @@
 import React, { useState, useRef, useEffect, useMemo, useCallback} from 'react';
 
 import SimpleGrid  from './simplegrid/SimpleGrid';
-import CellRender  from  './begin/CellRender'
-
+import ValueGetter  from  './begin/ValueGetter'
+import BasicCellRender  from './begin/BasicCellRender';
+import InfiniteRows from './begin/InfiniteRows';
 const App = () => {
 
 
  return (
    //<SimpleGrid/>
-   <CellRender/>
+   //<ValueGetter/>
+   //<BasicCellRender/>
+   <InfiniteRows/>
 
  );
 };
